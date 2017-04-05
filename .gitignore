@@ -1,0 +1,31 @@
+# Please add IDE-specific files (e.g. .*.sw* from Vim or .idea from IntelliJ)
+# to your global config. If you don't have one set up already, you can create
+# it using "git config --global core.excludesfile ~/.gitignore".
+
+# OS generated files
+.DS_Store
+
+# Dot files and folders for unmanaged tools
+.idea*
+.editorconfig
+.vagrant
+
+# file extensions of things to not manage
+*~
+*.[oa]
+*.iml
+
+# Logs
+*.log
+
+# map files
+*.map
+
+# Generated sources
+bower_components
+dist
+node
+node_modules
+target
+overlays
+tomcat
